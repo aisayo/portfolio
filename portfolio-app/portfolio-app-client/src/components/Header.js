@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 const Header = () => {
     return(
         <Router>
-        <div className>
+        <div className="header">
            <NavBar />
         </div>
         </Router>

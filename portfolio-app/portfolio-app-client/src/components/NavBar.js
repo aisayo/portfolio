@@ -11,29 +11,50 @@ const NavBar = () => {
                 activeStyle={{
                     color: 'purple'
                 }}
-                > Home 
-            </NavLink> |
+                > Home  
+            </NavLink> | 
 
-                <NavLink
-                to="/contact"
-                activeStyle={{
-                    color: 'black'
-                }}
-                > About</NavLink> |
-
-                <NavLink
+            <NavLink
                 to="/about"
                 activeStyle={{
                     color: 'black'
                 }}
-                > Skills </NavLink> |
+                >  About
+            </NavLink> |
 
-                <NavLink
-                to="/"
+            <NavLink
+                to="/skills"
                 activeStyle={{
                     color: 'black'
                 }}
-                > Blog </NavLink>
+                > Skills 
+            </NavLink> |
+
+            <NavLink
+                to="/blog"
+                activeStyle={{
+                    color: 'black'
+                }}
+                > Blog 
+            </NavLink> |
+
+            <NavLink
+                to="/projects"
+                activeStyle={{
+                    color: 'black'
+                }}
+                > Projects 
+            </NavLink> |
+
+            <NavLink
+                to="/contact"
+                activeStyle={{
+                    color: 'black'
+                }}
+                > Contact 
+            </NavLink> 
+            
+
             </div>
     )
 }
