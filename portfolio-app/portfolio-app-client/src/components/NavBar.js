@@ -9,7 +9,7 @@ const NavBar = () => {
                 to="/home"
                 exact
                 activeStyle={{
-                    color: 'purple'
+                    color: 'white'
                 }}
                 > Home  
             </NavLink> | 
@@ -17,7 +17,7 @@ const NavBar = () => {
             <NavLink
                 to="/about"
                 activeStyle={{
-                    color: 'black'
+                    color: 'white'
                 }}
                 >  About
             </NavLink> |
@@ -25,7 +25,7 @@ const NavBar = () => {
             <NavLink
                 to="/skills"
                 activeStyle={{
-                    color: 'black'
+                    color: 'white'
                 }}
                 > Skills 
             </NavLink> |
@@ -33,7 +33,7 @@ const NavBar = () => {
             <NavLink
                 to="/blog"
                 activeStyle={{
-                    color: 'black'
+                    color: 'white'
                 }}
                 > Blog 
             </NavLink> |
@@ -41,7 +41,7 @@ const NavBar = () => {
             <NavLink
                 to="/projects"
                 activeStyle={{
-                    color: 'black'
+                    color: 'white'
                 }}
                 > Projects 
             </NavLink> |
@@ -49,7 +49,7 @@ const NavBar = () => {
             <NavLink
                 to="/contact"
                 activeStyle={{
-                    color: 'black'
+                    color: 'white'
                 }}
                 > Contact 
             </NavLink> 
