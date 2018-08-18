@@ -1,6 +1,6 @@
 /* App Container  */
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-image: url('https://images.unsplash.com/photo-1529528744093-6f8abeee511d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fef72cf9ca2b6b1e5ee6574ef03e720&auto=format&fit=crop&w=1050&q=80');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,28 +8,19 @@
 }
 
 .header {
-  position: fixed;
-  height: 10%;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0);
-  margin-top: 2%;
-
+  background-color: rgba(255, 255, 255, 0.274);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a {
-  border: solid;
-  border-width: thin;
-  border-color: white;
-  /* border-radius: 100%; */
-  padding-right: 10px;
-  padding-left: 10px;
   display: inline-flex;
-  height: 100%;
-  margin-right: 5%;
   font-family: 'Courier New', Courier, monospace;
   color:white;
   text-decoration: none;
-  margin-left:-40px;
+  padding: 1em;
+
 }
 
 a:hover {
@@ -42,9 +33,8 @@ a:hover {
 /* Homepage */
 
 .HomepageContainer {
-  padding-top: 25%;
-  padding-bottom: 25%;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.274);
+  height: 100vh;
 }
 
 .name {
@@ -57,6 +47,7 @@ a:hover {
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
+  text-shadow: 1px 1px #a37896;
 
   -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -223,4 +214,19 @@ a:hover {
   font-size: 12px;
   margin: 1px;
 } */
+
+/* @media (max-width: 430px) {
+  .cover > .lead > .btn {
+    margin: 0px;
+    text-shadow: none;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    -webkit-font-smoothing: antialiased;
+  }  
+} */
+
+
 
