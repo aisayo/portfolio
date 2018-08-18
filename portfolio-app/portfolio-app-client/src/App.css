@@ -100,34 +100,36 @@ a:hover {
 /* About */
 
 .Aboutcontainer {
-  border: solid;
   border-color: whitesmoke;
   border-width: thin;
   padding-top: 5%;
-  padding-bottom: 10%;
-  padding-left: 5%;
-  background-color: rgba(255, 255, 255, .75);
+  padding-left: 10%;
+  background-color: rgba(255, 255, 255, 0.534);
   color: white;
+  height: 100vh;
 }
+
 
 .AboutMe {
   font-family: "Luckiest Guy";
   color: white;
   font-size: 100px;
-  display: flex;
-  flex-flow: row;
+  text-shadow: 1px 1px #a37896;
+  padding-bottom: 50px;
 
 }
 
 .pic img{
+  /* border: solid; */
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  display: flex;
-  align-items: flex-start;
+  /* display: flex; */
+  /* align-items: flex-start; */
   margin-left: 50px;
-
-
+  box-shadow:
+      0 0 0 5px hsla(305, 49%, 81%, 0.26),
+      0 0 0 10px hsla(0, 0%, 90%, 0.356);
 }
 
 .pic img:hover {
@@ -135,9 +137,13 @@ a:hover {
 }
 
 .AboutMeDetails p {
-  border: solid;
   width: 50%;
+  width: 30%;
+  margin-left: 600px;
+  margin-top: -25%;
+  color: white;
 }
+
 
 /* Skills */
 

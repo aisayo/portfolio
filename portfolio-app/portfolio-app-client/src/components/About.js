@@ -11,9 +11,18 @@ const About = () => {
             </div>
             <div className="AboutMeDetails">
                 <p>
-                    At the time being, I'm working as a tech coach at Flatiron, having 
-                    fun with students who want to learn code, while I continue to learn code myself. 
-                    I recently graduated from Flatiron's online bootcamp 
+                    I recently graduated from an online coding camp at Flatiron school where I got to 
+                    indulge in constant self-teaching and some major problem solving.  <br/><br/>
+
+                    I had so much fun learning the different languages and 
+                    frameworks, I wanted to help other students in their learning journey! So after I graduated, I applied for Flatirons
+                    Technical Coach Fellowship program and was hired on to be apart of the awesome team. As a technical 
+                    coach, I get to help students learn how to utilize the tools that are provided to them to quickly 
+                    debug and resolve their code. <br/><br/>
+
+                    When I'm not helping students find their way through code-land, you can catch me lost somewhere
+                    in nature, fishing or at home solving jigsaw puzzles while watching Lord of the Rings!
+
                 </p>
             </div>
         </div>
