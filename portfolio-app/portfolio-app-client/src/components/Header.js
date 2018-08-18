@@ -6,7 +6,9 @@ const Header = () => {
     return(
         <Router>
         <div className="header">
-           <NavBar />
+            <div className="navbar">
+                <NavBar />
+            </div>
         </div>
         </Router>
     )

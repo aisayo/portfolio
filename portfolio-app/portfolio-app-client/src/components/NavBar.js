@@ -1,60 +1,57 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return(
-           <div className="navbar">
+           <div className="NavBar">
+                <Link
+                    to="/home"
+                    exact
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    > Home  
+                </Link>  
 
-            <NavLink
-                to="/home"
-                exact
-                activeStyle={{
-                    color: 'white'
-                }}
-                > Home  
-            </NavLink> | 
+                <Link
+                    to="/about"
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    >  About
+                </Link> 
 
-            <NavLink
-                to="/about"
-                activeStyle={{
-                    color: 'white'
-                }}
-                >  About
-            </NavLink> |
+                <Link
+                    to="/skills"
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    > Skills 
+                </Link> 
 
-            <NavLink
-                to="/skills"
-                activeStyle={{
-                    color: 'white'
-                }}
-                > Skills 
-            </NavLink> |
+                <Link
+                    to="/blog"
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    > Blog 
+                </Link> 
 
-            <NavLink
-                to="/blog"
-                activeStyle={{
-                    color: 'white'
-                }}
-                > Blog 
-            </NavLink> |
+                <Link
+                    to="/projects"
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    > Projects 
+                </Link> 
 
-            <NavLink
-                to="/projects"
-                activeStyle={{
-                    color: 'white'
-                }}
-                > Projects 
-            </NavLink> |
-
-            <NavLink
-                to="/contact"
-                activeStyle={{
-                    color: 'white'
-                }}
-                > Contact 
-            </NavLink> 
-            
-
+                <Link
+                    to="/contact"
+                    activeStyle={{
+                        color: 'white'
+                    }}
+                    > Contact 
+                </Link> 
             </div>
     )
 }
