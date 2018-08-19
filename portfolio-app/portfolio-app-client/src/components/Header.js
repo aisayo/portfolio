@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 
 import Homepage from './resume/Homepage';
 import About from './About';
-
+import Contact from './Contact';
+import Projects from './Projects';
+import Skills from './Skills';
 
 const Header = () => {
     return(
@@ -12,9 +14,6 @@ const Header = () => {
         <div className="header">
             <div className="navbar">
                 <NavBar />
-                <Switch>
-                    <Route path="/about" component={About} />} />
-                  </Switch>
             </div>
         </div>
         </Router>

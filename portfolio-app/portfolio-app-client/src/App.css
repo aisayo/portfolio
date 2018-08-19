@@ -1,26 +1,27 @@
 /* App Container  */
+
 .App {
-  /* text-align: center; */
   background-image: url('https://images.unsplash.com/photo-1529528744093-6f8abeee511d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fef72cf9ca2b6b1e5ee6574ef03e720&auto=format&fit=crop&w=1050&q=80');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+/* Header w/ Navbar */
+
 .header {
-  background-color: rgba(255, 255, 255, 0.274);
   display: flex;
+  position: fixed;
   justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .navbar a {
-  display: inline-flex;
   font-family: 'Courier New', Courier, monospace;
   color:white;
   text-decoration: none;
+  display: inline-flex;
   padding: 1em;
-
 }
 
 a:hover {
@@ -35,20 +36,16 @@ a:hover {
 .HomepageContainer {
   background-color: rgba(255, 255, 255, 0.274);
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .name {
-  width:50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
   text-shadow: 1px 1px #a37896;
-
+  align-self: center;
   -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
@@ -184,17 +181,14 @@ a:hover {
 /* Contact */
 
 .Contact {
+  height: 100vh;
   text-align: center;
   border: solid;
-  /* border-color: darkslategray; */
   border-width: thin;
   border-bottom-style: outset;
   padding-top: 300px;
   padding-bottom: 300px;
-  /* margin-top: 100px; */
-  /* margin-bottom: 200px; */
   background-color: white;
-  /* opacity: .8; */
   color:black;
   font-weight: bold;
 }
