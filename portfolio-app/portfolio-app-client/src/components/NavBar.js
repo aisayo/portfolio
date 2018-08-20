@@ -1,11 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+
+import Homepage from './Homepage';
+import About from './About';
 
 const NavBar = () => {
     return(
+        <Router> 
            <div className="NavBar">
+           
                 <Link
-                    to="/home"
+                    to="/"
                     exact
                     activeStyle={{
                         color: 'white'
@@ -53,6 +58,7 @@ const NavBar = () => {
                     > Contact 
                 </Link> 
             </div>
+            </Router>
     )
 }
 

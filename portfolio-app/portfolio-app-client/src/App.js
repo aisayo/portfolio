@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 
 import './App.css';
 
-import Homepage from './components/resume/Homepage'
+import Homepage from './components/Homepage';
 import About from './components/About';
 import Skills from './components/Skills';
 import BlogContainer from './components/blog/Blogcontainer';
@@ -12,13 +12,18 @@ import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 
-//need to figure out how to position the navbar to the right
-// 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Router>
+          <div className="header">
+            <div className="navbar">
+                <NavBar />
+            </div>
+         </div>
+        </Router>
+
         <div className="HomepageContainer">
           <Homepage />
         </div>
