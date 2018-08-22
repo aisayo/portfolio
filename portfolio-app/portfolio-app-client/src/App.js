@@ -3,14 +3,14 @@ import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 
 import './App.css';
 
-import Homepage from './components/Homepage';
+import Homepage from './components/landingpage/Homepage';
 import About from './components/About';
 import Skills from './components/Skills';
 import BlogContainer from './components/blog/Blogcontainer';
 import Projects from './components/Projects'; 
 import Contact from './components/Contact';
-import NavBar from './components/NavBar';
-import Header from './components/Header';
+import NavBar from './components/landingpage/NavBar';
+import Header from './components/landingpage/Header';
 
 class App extends Component {
   render() {

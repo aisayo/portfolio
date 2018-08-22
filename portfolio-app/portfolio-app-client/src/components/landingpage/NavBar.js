@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-import Homepage from './Homepage';
-import About from './About';
-
 const NavBar = () => {
     return(
         <Router> 
