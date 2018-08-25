@@ -9,30 +9,19 @@ import Skills from './components/Skills';
 import BlogContainer from './components/blog/Blogcontainer';
 import Projects from './components/Projects'; 
 import Contact from './components/Contact';
-import NavBar from './components/landingpage/NavBar';
-import Header from './components/landingpage/Header';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
           <div className="header">
-            <div className="navbar">
-                <NavBar />
-            </div>
+            <Header />
          </div>
-        </Router>
-
         <div className="HomepageContainer">
           <Homepage />
-        </div>
-        <About />
-        <Skills />
-        <BlogContainer/>
-        <Projects />
-        <Contact />
-    
+        </div>    
       </div>
     );
   }

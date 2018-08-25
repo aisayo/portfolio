@@ -1,5 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Homepage from './landingpage/Homepage';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact';
 
 const NavBar = () => {
     return(
@@ -54,6 +59,15 @@ const NavBar = () => {
                     }}
                     > Contact 
                 </Link> 
+
+                <Switch>
+                    <Route path="/about" component={About} />} />
+                    <Route path="/skills" component={Skills} />} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/contact" component={Contact} />
+                  </Switch>
+
+
             </div>
             </Router>
     )
