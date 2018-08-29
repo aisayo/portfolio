@@ -5,11 +5,12 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import App from '../App';
 
 const NavBar = () => {
     return(
         <Router> 
-           <div className="NavBar">
+           <div className="navbar">
            
                 <Link
                     to="/"
@@ -61,15 +62,12 @@ const NavBar = () => {
                 </Link> 
 
                 <Switch>
-                    <Route path="/about" component={About} />} />
-                    <Route path="/skills" component={Skills} />} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/contact" component={Contact} />
-                  </Switch>
-
+                    <Route path='/contact' component={Contact} />
+                    <Route path="/about" component={About} />
+                </Switch>
 
             </div>
-            </Router>
+    </Router>
     )
 }
 
