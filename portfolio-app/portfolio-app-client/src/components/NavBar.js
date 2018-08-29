@@ -9,7 +9,6 @@ import App from '../App';
 
 const NavBar = () => {
     return(
-        <Router> 
            <div >
            
                 <Link
@@ -61,7 +60,6 @@ const NavBar = () => {
                     > Contact 
                 </Link> 
             </div>
-    </Router>
     )
 }
 
