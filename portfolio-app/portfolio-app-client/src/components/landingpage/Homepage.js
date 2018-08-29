@@ -1,17 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 
 import '../../App.css';
-
-
 import Header from '../Header';
-import NavBar from '../NavBar';
+import About from '../About';
 
 
 const Homepage = () => {
     return (
-                <div className="homepagecontainer">
-                    <div> 
-                        <NavBar />
+                <div className="homepagecontainer"> 
+                    <div className="header"> 
+                        <Header />
                     </div>
                     <div className="name">
                         <text>Hi, I'm Aysan!</text>

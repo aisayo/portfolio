@@ -10,7 +10,7 @@ import App from '../App';
 const NavBar = () => {
     return(
         <Router> 
-           <div className="navbar">
+           <div >
            
                 <Link
                     to="/"
@@ -60,12 +60,6 @@ const NavBar = () => {
                     }}
                     > Contact 
                 </Link> 
-
-                <Switch>
-                    <Route path='/contact' component={Contact} />
-                    <Route path="/about" component={About} />
-                </Switch>
-
             </div>
     </Router>
     )
