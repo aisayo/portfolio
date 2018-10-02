@@ -44,7 +44,7 @@ const NavBar = () => {
                     > Blog 
                 </Link>  */}
 
-                <Link
+                {/* <Link
                     to="/projects"
                     activeStyle={{
                         color: 'white'
@@ -58,7 +58,7 @@ const NavBar = () => {
                         color: 'white'
                     }}
                     > Contact 
-                </Link> 
+                </Link>  */}
             </div>
     )
 }
