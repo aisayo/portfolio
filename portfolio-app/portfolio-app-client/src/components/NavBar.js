@@ -36,13 +36,13 @@ const NavBar = () => {
                     > Skills 
                 </Link> 
 
-                <Link
+                {/* <Link
                     to="/blog"
                     activeStyle={{
                         color: 'white'
                     }}
                     > Blog 
-                </Link> 
+                </Link>  */}
 
                 <Link
                     to="/projects"
