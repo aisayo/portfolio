@@ -65,4 +65,4 @@ const NavBar = () => {
 
 export default NavBar;
 
-//need to add links back once components are
+//need to add links back once components a
