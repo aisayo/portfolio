@@ -2,10 +2,20 @@
   "name": "portfolio-app-client",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-native": "^0.57.1",
+=======
+  "engines": {
+    "npm": "5.6.0",
+    "node": "9.8.0"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+>>>>>>> 2b1b8079dab973cba573bcd43d1eae3f4e608046
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
