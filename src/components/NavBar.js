@@ -36,25 +36,15 @@ const NavBar = () => {
                     > Skills 
                 </Link> 
 
-<<<<<<< HEAD
                 {/* <Link
-=======
-                <Link
->>>>>>> 2b1b8079dab973cba573bcd43d1eae3f4e608046
                     to="/blog"
                     activeStyle={{
                         color: 'white'
                     }}
                     > Blog 
-<<<<<<< HEAD
                 </Link>  */}
 
                 {/* <Link
-=======
-                </Link> 
-
-                <Link
->>>>>>> 2b1b8079dab973cba573bcd43d1eae3f4e608046
                     to="/projects"
                     activeStyle={{
                         color: 'white'
@@ -68,19 +58,11 @@ const NavBar = () => {
                         color: 'white'
                     }}
                     > Contact 
-<<<<<<< HEAD
                 </Link>  */}
-=======
-                </Link> 
->>>>>>> 2b1b8079dab973cba573bcd43d1eae3f4e608046
             </div>
     )
 }
 
-<<<<<<< HEAD
 export default NavBar;
 
 //need to add links back once components a
-=======
-export default NavBar;
->>>>>>> 2b1b8079dab973cba573bcd43d1eae3f4e608046
