@@ -65,4 +65,4 @@ const NavBar = () => {
 
 export default NavBar;
 
-//need to add links back once components are finished and ready to show
+//need to add links back once components are finished 
