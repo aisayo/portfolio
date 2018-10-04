@@ -1,8 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
-
-import About from '../About';
-
 
 const Homepage = () => {
     return (
@@ -10,6 +6,10 @@ const Homepage = () => {
                     <div className="name">
                         <text>Hi, I'm Aysan!</text>
                     </div>
+                    <div className="homeimage">
+                        <img src={require("../img/backgroundimg1.jpg")}/>
+                    </div>
+
                 </div>
     )
 }
