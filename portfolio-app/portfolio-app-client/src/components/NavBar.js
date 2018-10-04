@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Homepage from './landingpage/Homepage';
+
+import Homepage from './Homepage';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';

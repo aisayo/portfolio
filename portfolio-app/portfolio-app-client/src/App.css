@@ -156,4 +156,10 @@ a:hover {
 } */
 
 
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(98, 98, 100, 0.452);
+}
+
 

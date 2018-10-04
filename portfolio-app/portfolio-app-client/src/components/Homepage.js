@@ -7,7 +7,7 @@ const Homepage = () => {
                         <text>Hi, I'm Aysan!</text>
                     </div>
                     <div className="homeimage">
-                        <img src={require("../img/backgroundimg1.jpg")}/>
+                        <img src={require("./img/backgroundimg1.jpg")}/>
                     </div>
 
                 </div>
