@@ -9,3 +9,7 @@ ReactDOM.render(
   <App />,
     document.getElementById('root'));
 registerServiceWorker();
+
+
+//wrap app in browserrouter
+//create a main component 

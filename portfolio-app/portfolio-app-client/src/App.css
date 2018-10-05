@@ -1,6 +1,7 @@
 /* Homepage */
- .app {
-}
+ /* .app {
+   display: flex;
+} */
 
 .homepagecontainer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,33 +18,28 @@
 }
 
  .name { 
+  color: white;
   font-size: 50px;
   text-shadow: 3px 3px #d82222;
   padding-bottom: .1em;
 
 }   
 
-/* Header w/ Navbar */
-
-/* .header {
-  width: 100%;
-  border: solid;
-  border-color: white;
-} */
-
-/* .navbar {
-  background-color: rgba(209, 202, 202, 0.13);
+/* Navbar */
+ .navbar {
+  background-color: rgba(98, 98, 100, 0.452);
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
 .navbar a {
+  font-size: 20px;
   color:white;
   text-decoration: none;
   padding: 1em;
 
-  justify-content: center;
 }
 
 a:hover {
@@ -159,7 +155,26 @@ a:hover {
 .footer {
   display: flex;
   justify-content: center;
+  align-self: center;
   background-color: rgba(98, 98, 100, 0.452);
 }
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
 
 

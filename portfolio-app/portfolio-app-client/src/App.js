@@ -1,33 +1,23 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import IconButton from '@material-ui/core/IconButton';
 
 import './App.css';
 
-import NavBar from './components/NavBar';
-import Homepage from './components/Homepage';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-
 class App extends Component {
   render() {
+    console.log('props', this.props)
+    // const { classes } = this.props
     return (
-      <Router>
-      <div className="app">
-        <NavBar />
-          <Switch>
-            <Route exact path='/' component={Homepage} />
-            <Route path='/about' component={About} />
-            <Route path='/skills' component={Skills} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={Contact} />
-          </Switch>
-        <Footer />
-      </div>
-      </Router>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton color="inherit" aria-label="Menu">
 
+          </IconButton>
+        </Toolbar>
+      </AppBar>
     );
   }
 }
